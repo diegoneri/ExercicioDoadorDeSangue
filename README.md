@@ -31,17 +31,17 @@ Você pode doar sangue // idade: 69 peso: 50
 ```
 OU
 ```
-Digite sua idade: 25
-Digite seu peso: 50
-
-Você pode doar sangue // idade: 25 peso: 50
-```
-OU
-```
 Digite sua idade: 56
 Digite seu peso: 44
 
 Doadores tem que ter pelo menos 50kg
+```
+OU
+```
+Digite sua idade: 25
+Digite seu peso: 50
+
+Você pode doar sangue // idade: 25 peso: 50
 ```
 OU
 ```
