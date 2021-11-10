@@ -35,6 +35,7 @@ namespace ExercicioDoadorDeSangue
       if (idadeNR < 16 || idadeNR > 69)
       {
         Console.WriteLine("\nVocê não pode ser doador de sangue.");
+        Environment.Exit(-1);
       }
 
       if (idadeNR >= 18 && idadeNR <= 69)
@@ -47,7 +48,7 @@ namespace ExercicioDoadorDeSangue
         {
           Console.WriteLine("\nDoadores tem que ter pelo menos 50kg");
         }
-        else if (pesoNR >= 50)
+        else
         {
           Console.WriteLine($"\nVocê pode doar sangue // idade: {idadeNR} peso: {pesoNR}");
         }
@@ -58,7 +59,7 @@ namespace ExercicioDoadorDeSangue
         {
           Console.WriteLine("\nDoadores tem que ter pelo menos 50kg");
         }
-        else if (pesoNR >= 50)
+        else
         {
           Console.WriteLine("\nVocê tem permissão de seus responsaveis? Digite [S] para sim e outro para nao.");
           bool Permissao = Console.ReadLine().ToUpper() == "S";
